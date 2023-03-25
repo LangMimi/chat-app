@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- My Styles -->
+        <link rel="stylesheet" href="styles.css" />
+
+        <script
+            src="https://kit.fontawesome.com/3e466b39f5.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <title>Chat Application</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <section class="home">
+                <header>
+                    <div class="user">
+                        <img
+                            src="images/user-icon.svg"
+                            alt=""
+                            style="width: 50px; height: 50px"
+                        />
+                        <div class="user__details">
+                            <h1 class="userName">Mimi Rabz</h1>
+                            <p class="userStatus">Active Now</p>
+                        </div>
+                    </div>
+                    <button class="logout">logout</button>
+                </header>
+                <div class="err-message"></div>
+                <main>
+                    <form action="POST">
+                        <div class="search-field">
+                            <input
+                                type="text"
+                                placeholder="Search..."
+                                name="search"
+                            />
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </form>
+                </main>
+            </section>
+        </div>
+    </body>
+</html>

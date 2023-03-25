@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- My Styles -->
+        <link rel="stylesheet" href="styles.css" />
+
+        <script
+            src="https://kit.fontawesome.com/3e466b39f5.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <title>Chat Application</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <section class="form sign-up">
+                <header>
+                    <h1>CHAT APPLICATION</h1>
+                    <p>Sign Up</p>
+                </header>
+                <div class="err-message"></div>
+                <main>
+                    <form action="POST">
+                        <div class="input-field">
+                            <input
+                                type="text"
+                                placeholder="Firstname"
+                                name="firstname"
+                            />
+                        </div>
+                        <div class="input-field">
+                            <input
+                                type="text"
+                                placeholder="Lastname"
+                                name="lastname"
+                            />
+                        </div>
+                        <div class="input-field">
+                            <input
+                                type="email"
+                                placeholder="Email Address"
+                                name="email"
+                            />
+                        </div>
+                        <div class="input-field">
+                            <input
+                                type="password"
+                                placeholder="Password"
+                                name="password"
+                            />
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="input-field">
+                            <input
+                                type="password"
+                                placeholder="Confirm Password"
+                                name="repeatPass"
+                            />
+                            <i class="fas fa-eye"></i>
+                        </div>
+
+                        <!-- CHOOSE IMAGE FILE -->
+                        <div class="input-field">
+                            <label>Select Image </label>
+                            <input
+                                type="file"
+                                id="imageFile"
+                                name="imageFile"
+                                accept="image/*"
+                            />
+                        </div>
+
+                        <button type="submit" name="sign-up">Sign Up</button>
+                    </form>
+                    <h3>
+                        Already have an account?
+                        <a href="sign-in.html">Sign in</a>
+                    </h3>
+                </main>
+            </section>
+        </div>
+    </body>
+</html>

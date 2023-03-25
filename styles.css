@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: #d4d4d4;
+}
+
+.wrapper {
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 1.5rem;
+}
+
+.wrapper header {
+    text-align: center;
+}
+
+.wrapper header h1,
+p {
+    font-weight: 300;
+}
+
+.wrapper main form {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.wrapper main form .input-field input {
+    padding: 0.5rem;
+    width: 100%;
+    outline: none;
+}
+
+.wrapper main form .input-field {
+    position: relative;
+}
+
+.wrapper main form .input-field i {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    color: #d4d4d4;
+    cursor: pointer;
+}
+
+.wrapper main form .select label {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
+/* button */
+.wrapper main form button {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.wrapper main h3 {
+    margin: 1rem 0;
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.wrapper main h3 a {
+    text-decoration: underline;
+    color: #688bcc;
+    cursor: pointer;
+}
+
+/* USER STYLING */
+.home header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home header .user {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.home header .user img {
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    border: 2px solid #646464;
+}
+
+.home header .user__details h1 {
+    font-size: 1rem;
+}
+
+.home header .user__details p {
+    font-size: 0.775rem;
+    color: rgb(61, 143, 61);
+}
+
+.home header .logout {
+    padding: 0.2rem 0.875rem;
+    font-size: 0.875rem;
+    outline: none;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home main .search-field {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.home main .search-field input {
+    height: 42px;
+    padding: 0 0.5rem;
+    width: 100%;
+    outline: none;
+}
+
+.home main .search-field i {
+    padding: 0.875rem;
+    border-radius: 2px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
