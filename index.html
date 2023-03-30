@@ -30,6 +30,7 @@
                                 type="text"
                                 placeholder="Firstname"
                                 name="firstname"
+                                required
                             />
                         </div>
                         <div class="input-field">
@@ -37,6 +38,7 @@
                                 type="text"
                                 placeholder="Lastname"
                                 name="lastname"
+                                required
                             />
                         </div>
                         <div class="input-field">
@@ -44,6 +46,7 @@
                                 type="email"
                                 placeholder="Email Address"
                                 name="email"
+                                required
                             />
                         </div>
                         <div class="input-field">
@@ -51,16 +54,18 @@
                                 type="password"
                                 placeholder="Password"
                                 name="password"
+                                required
                             />
-                            <i class="fas fa-eye"></i>
                         </div>
                         <div class="input-field">
                             <input
                                 type="password"
                                 placeholder="Confirm Password"
                                 name="repeatPass"
+                                id="confirmPass"
+                                required
                             />
-                            <i class="fas fa-eye"></i>
+                            <i class="fas fa-eye" id="eye"></i>
                         </div>
 
                         <!-- CHOOSE IMAGE FILE -->
@@ -83,5 +88,7 @@
                 </main>
             </section>
         </div>
+
+        <script src="js/toggle.js"></script>
     </body>
 </html>
